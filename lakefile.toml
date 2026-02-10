@@ -1,0 +1,10 @@
+name = "BRAL"
+version = "0.1.0"
+defaultTargets = ["bral"]
+
+[[lean_lib]]
+name = "BRAL"
+
+[[lean_exe]]
+name = "bral"
+root = "Main"
